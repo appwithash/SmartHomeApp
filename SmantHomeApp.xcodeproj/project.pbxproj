@@ -11,6 +11,11 @@
 		C511273D266856410082BBB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C511273C266856410082BBB4 /* ContentView.swift */; };
 		C511273F266856420082BBB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C511273E266856420082BBB4 /* Assets.xcassets */; };
 		C5112742266856420082BBB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5112741266856420082BBB4 /* Preview Assets.xcassets */; };
+		C51A894E2668830800167205 /* ExtraData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51A894D2668830800167205 /* ExtraData.swift */; };
+		C51A895126688F4C00167205 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51A895026688F4C00167205 /* HomeScreenView.swift */; };
+		C51A89542668B24100167205 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51A89532668B24100167205 /* Tab.swift */; };
+		C5E777482669D3E0007FCEFD /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E777472669D3E0007FCEFD /* RoomView.swift */; };
+		C5E7774B266A05C9007FCEFD /* RoomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E7774A266A05C9007FCEFD /* RoomOverlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		C511273E266856420082BBB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5112741266856420082BBB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C5112743266856420082BBB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51A894D2668830800167205 /* ExtraData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraData.swift; sourceTree = "<group>"; };
+		C51A895026688F4C00167205 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		C51A89532668B24100167205 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		C5E777472669D3E0007FCEFD /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
+		C5E7774A266A05C9007FCEFD /* RoomOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomOverlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,11 @@
 			children = (
 				C511273A266856410082BBB4 /* SmantHomeAppApp.swift */,
 				C511273C266856410082BBB4 /* ContentView.swift */,
+				C51A89532668B24100167205 /* Tab.swift */,
+				C51A895026688F4C00167205 /* HomeScreenView.swift */,
+				C5E777472669D3E0007FCEFD /* RoomView.swift */,
+				C5E7774A266A05C9007FCEFD /* RoomOverlayView.swift */,
+				C51A894D2668830800167205 /* ExtraData.swift */,
 				C511273E266856420082BBB4 /* Assets.xcassets */,
 				C5112743266856420082BBB4 /* Info.plist */,
 				C5112740266856420082BBB4 /* Preview Content */,
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C51A894E2668830800167205 /* ExtraData.swift in Sources */,
+				C5E7774B266A05C9007FCEFD /* RoomOverlayView.swift in Sources */,
 				C511273D266856410082BBB4 /* ContentView.swift in Sources */,
+				C51A89542668B24100167205 /* Tab.swift in Sources */,
+				C5E777482669D3E0007FCEFD /* RoomView.swift in Sources */,
 				C511273B266856410082BBB4 /* SmantHomeAppApp.swift in Sources */,
+				C51A895126688F4C00167205 /* HomeScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +289,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SmantHomeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = N98LQQPQ3K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SmantHomeApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -290,6 +311,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SmantHomeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = N98LQQPQ3K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SmantHomeApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
